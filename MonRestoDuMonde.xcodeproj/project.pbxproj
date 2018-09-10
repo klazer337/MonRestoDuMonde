@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1424AF214682F50049EEC7 /* MenuController.swift */; };
 		0A1424B22146839C0049EEC7 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1424B12146839C0049EEC7 /* ALaCarteController.swift */; };
+		0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA9A422146EF1600E39865 /* MonTabBarController.swift */; };
+		0AEA9A462146EF8000E39865 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA9A452146EF8000E39865 /* Constantes.swift */; };
 		934543202145813200DEFDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345431F2145813200DEFDDE /* AppDelegate.swift */; };
 		934543252145813200DEFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543232145813200DEFDDE /* Main.storyboard */; };
 		934543272145813300DEFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934543262145813300DEFDDE /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		0A1424AF214682F50049EEC7 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		0A1424B12146839C0049EEC7 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		0AEA9A422146EF1600E39865 /* MonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBarController.swift; sourceTree = "<group>"; };
+		0AEA9A452146EF8000E39865 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		9345431C2145813200DEFDDE /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9345431F2145813200DEFDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934543242145813200DEFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,8 +60,17 @@
 			children = (
 				0A1424AF214682F50049EEC7 /* MenuController.swift */,
 				0A1424B12146839C0049EEC7 /* ALaCarteController.swift */,
+				0AEA9A422146EF1600E39865 /* MonTabBarController.swift */,
 			);
 			path = Controleur;
+			sourceTree = "<group>";
+		};
+		0AEA9A442146EF6000E39865 /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA9A452146EF8000E39865 /* Constantes.swift */,
+			);
+			path = Utilitaire;
 			sourceTree = "<group>";
 		};
 		934543132145813200DEFDDE = {
@@ -79,6 +92,7 @@
 		9345431E2145813200DEFDDE /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				0AEA9A442146EF6000E39865 /* Utilitaire */,
 				0A1424AC2146821A0049EEC7 /* Modele */,
 				0A1424AD214682380049EEC7 /* Vue */,
 				0A1424AE214682420049EEC7 /* Controleur */,
@@ -162,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEA9A462146EF8000E39865 /* Constantes.swift in Sources */,
 				0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */,
+				0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */,
 				934543202145813200DEFDDE /* AppDelegate.swift in Sources */,
 				0A1424B22146839C0049EEC7 /* ALaCarteController.swift in Sources */,
 			);
