@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--La Carte Controller-->
         <scene sceneID="Y15-w7-ymF">
             <objects>
-                <viewController id="jTr-qf-T30" sceneMemberID="viewController">
+                <viewController id="jTr-qf-T30" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XUL-ic-aXt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="1448.8" y="470.91454272863569"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu Controller-->
         <scene sceneID="0VJ-Fo-HnM">
             <objects>
-                <viewController id="jY2-8X-sGD" sceneMemberID="viewController">
+                <viewController id="jY2-8X-sGD" customClass="MenuController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wsY-Bo-ouW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

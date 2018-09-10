@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1424AF214682F50049EEC7 /* MenuController.swift */; };
+		0A1424B22146839C0049EEC7 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1424B12146839C0049EEC7 /* ALaCarteController.swift */; };
 		934543202145813200DEFDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345431F2145813200DEFDDE /* AppDelegate.swift */; };
 		934543252145813200DEFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543232145813200DEFDDE /* Main.storyboard */; };
 		934543272145813300DEFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934543262145813300DEFDDE /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0A1424AF214682F50049EEC7 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0A1424B12146839C0049EEC7 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		9345431C2145813200DEFDDE /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9345431F2145813200DEFDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934543242145813200DEFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				0A1424AF214682F50049EEC7 /* MenuController.swift */,
+				0A1424B12146839C0049EEC7 /* ALaCarteController.swift */,
 			);
 			path = Controleur;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */,
 				934543202145813200DEFDDE /* AppDelegate.swift in Sources */,
+				0A1424B22146839C0049EEC7 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
