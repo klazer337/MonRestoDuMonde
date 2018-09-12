@@ -19,6 +19,8 @@
 		9345432A2145813300DEFDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543282145813300DEFDDE /* LaunchScreen.storyboard */; };
 		935ECF652149B978006D691D /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF642149B978006D691D /* Plat.swift */; };
 		935ECF672149B9B9006D691D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF662149B9B9006D691D /* Enums.swift */; };
+		935ECF692149BBDB006D691D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF682149BBDB006D691D /* Menu.swift */; };
+		935ECF6B2149BCD3006D691D /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF6A2149BCD3006D691D /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		9345432B2145813300DEFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935ECF642149B978006D691D /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		935ECF662149B9B9006D691D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		935ECF682149BBDB006D691D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		935ECF6A2149BCD3006D691D /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,8 @@
 		9345431E2145813200DEFDDE /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
-				935ECF632149B965006D691D /* Modele */,
 				0AEA9A442146EF6000E39865 /* Utilitaire */,
+				935ECF632149B965006D691D /* Modele */,
 				0A1424AD214682380049EEC7 /* Vue */,
 				0A1424AE214682420049EEC7 /* Controleur */,
 				9345431F2145813200DEFDDE /* AppDelegate.swift */,
@@ -113,6 +117,8 @@
 			children = (
 				935ECF642149B978006D691D /* Plat.swift */,
 				935ECF662149B9B9006D691D /* Enums.swift */,
+				935ECF682149BBDB006D691D /* Menu.swift */,
+				935ECF6A2149BCD3006D691D /* LesPlats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -192,7 +198,9 @@
 				0AEA9A462146EF8000E39865 /* Constantes.swift in Sources */,
 				0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */,
 				0AEA9A482146F23300E39865 /* MonNav.swift in Sources */,
+				935ECF692149BBDB006D691D /* Menu.swift in Sources */,
 				0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */,
+				935ECF6B2149BCD3006D691D /* LesPlats.swift in Sources */,
 				934543202145813200DEFDDE /* AppDelegate.swift in Sources */,
 				935ECF652149B978006D691D /* Plat.swift in Sources */,
 				935ECF672149B9B9006D691D /* Enums.swift in Sources */,
