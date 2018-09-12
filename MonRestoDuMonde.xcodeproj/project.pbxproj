@@ -17,6 +17,8 @@
 		934543252145813200DEFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543232145813200DEFDDE /* Main.storyboard */; };
 		934543272145813300DEFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934543262145813300DEFDDE /* Assets.xcassets */; };
 		9345432A2145813300DEFDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543282145813300DEFDDE /* LaunchScreen.storyboard */; };
+		935ECF652149B978006D691D /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF642149B978006D691D /* Plat.swift */; };
+		935ECF672149B9B9006D691D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ECF662149B9B9006D691D /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		934543262145813300DEFDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934543292145813300DEFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9345432B2145813300DEFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935ECF642149B978006D691D /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		935ECF662149B9B9006D691D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +49,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A1424AC2146821A0049EEC7 /* Modele */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modele;
-			sourceTree = "<group>";
-		};
 		0A1424AD214682380049EEC7 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +95,8 @@
 		9345431E2145813200DEFDDE /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				935ECF632149B965006D691D /* Modele */,
 				0AEA9A442146EF6000E39865 /* Utilitaire */,
-				0A1424AC2146821A0049EEC7 /* Modele */,
 				0A1424AD214682380049EEC7 /* Vue */,
 				0A1424AE214682420049EEC7 /* Controleur */,
 				9345431F2145813200DEFDDE /* AppDelegate.swift */,
@@ -109,6 +106,15 @@
 				9345432B2145813300DEFDDE /* Info.plist */,
 			);
 			path = MonRestoDuMonde;
+			sourceTree = "<group>";
+		};
+		935ECF632149B965006D691D /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+				935ECF642149B978006D691D /* Plat.swift */,
+				935ECF662149B9B9006D691D /* Enums.swift */,
+			);
+			path = Modele;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +194,8 @@
 				0AEA9A482146F23300E39865 /* MonNav.swift in Sources */,
 				0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */,
 				934543202145813200DEFDDE /* AppDelegate.swift in Sources */,
+				935ECF652149B978006D691D /* Plat.swift in Sources */,
+				935ECF672149B9B9006D691D /* Enums.swift in Sources */,
 				0A1424B22146839C0049EEC7 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
