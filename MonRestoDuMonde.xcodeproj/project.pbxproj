@@ -14,6 +14,8 @@
 		0AEA9A482146F23300E39865 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA9A472146F23300E39865 /* MonNav.swift */; };
 		0AEA9A4A2146F65000E39865 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA9A492146F65000E39865 /* MenuCell.swift */; };
 		930D790F214D9B40008332C6 /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D790E214D9B40008332C6 /* Degrade.swift */; };
+		930D7911214DA1A2008332C6 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7910214DA1A2008332C6 /* PlatCell.swift */; };
+		930D7913214DA3DD008332C6 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7912214DA3DD008332C6 /* ALaCarte.swift */; };
 		934543202145813200DEFDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345431F2145813200DEFDDE /* AppDelegate.swift */; };
 		934543252145813200DEFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543232145813200DEFDDE /* Main.storyboard */; };
 		934543272145813300DEFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934543262145813300DEFDDE /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		0AEA9A472146F23300E39865 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		0AEA9A492146F65000E39865 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		930D790E214D9B40008332C6 /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
+		930D7910214DA1A2008332C6 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		930D7912214DA3DD008332C6 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		9345431C2145813200DEFDDE /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9345431F2145813200DEFDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934543242145813200DEFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			children = (
 				0AEA9A492146F65000E39865 /* MenuCell.swift */,
 				930D790E214D9B40008332C6 /* Degrade.swift */,
+				930D7910214DA1A2008332C6 /* PlatCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 				935ECF662149B9B9006D691D /* Enums.swift */,
 				935ECF682149BBDB006D691D /* Menu.swift */,
 				935ECF6A2149BCD3006D691D /* LesPlats.swift */,
+				930D7912214DA3DD008332C6 /* ALaCarte.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -200,8 +206,10 @@
 				0AEA9A4A2146F65000E39865 /* MenuCell.swift in Sources */,
 				0AEA9A462146EF8000E39865 /* Constantes.swift in Sources */,
 				0A1424B0214682F50049EEC7 /* MenuController.swift in Sources */,
+				930D7911214DA1A2008332C6 /* PlatCell.swift in Sources */,
 				0AEA9A482146F23300E39865 /* MonNav.swift in Sources */,
 				930D790F214D9B40008332C6 /* Degrade.swift in Sources */,
+				930D7913214DA3DD008332C6 /* ALaCarte.swift in Sources */,
 				935ECF692149BBDB006D691D /* Menu.swift in Sources */,
 				0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */,
 				935ECF6B2149BCD3006D691D /* LesPlats.swift in Sources */,
