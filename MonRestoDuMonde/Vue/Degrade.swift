@@ -27,6 +27,7 @@ class Degrade: CAGradientLayer {
     
     func miseEnPlace() {
         frame = UIScreen.main.bounds                            // taille du gradient
+        //colors = [NOIR.cgColor, UIColor.white]        // Les 2 couleurs de base
         colors = [NOIR.cgColor, GRIS_TRES_FONCE.cgColor]        // Les 2 couleurs de base
         startPoint = CGPoint(x: 0, y: 0)                        // Point de départ
         endPoint = CGPoint(x: 1, y: 1)                          // Point de fin
