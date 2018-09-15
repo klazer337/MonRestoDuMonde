@@ -17,6 +17,7 @@
 		930D7911214DA1A2008332C6 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7910214DA1A2008332C6 /* PlatCell.swift */; };
 		930D7913214DA3DD008332C6 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7912214DA3DD008332C6 /* ALaCarte.swift */; };
 		930D7915214DB174008332C6 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7914214DB174008332C6 /* DetailController.swift */; };
+		930D7917214DB62D008332C6 /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7916214DB62D008332C6 /* PlatVue.swift */; };
 		934543202145813200DEFDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345431F2145813200DEFDDE /* AppDelegate.swift */; };
 		934543252145813200DEFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934543232145813200DEFDDE /* Main.storyboard */; };
 		934543272145813300DEFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934543262145813300DEFDDE /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		930D7910214DA1A2008332C6 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		930D7912214DA3DD008332C6 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		930D7914214DB174008332C6 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		930D7916214DB62D008332C6 /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 		9345431C2145813200DEFDDE /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9345431F2145813200DEFDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934543242145813200DEFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				0AEA9A492146F65000E39865 /* MenuCell.swift */,
 				930D790E214D9B40008332C6 /* Degrade.swift */,
 				930D7910214DA1A2008332C6 /* PlatCell.swift */,
+				930D7916214DB62D008332C6 /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				930D7913214DA3DD008332C6 /* ALaCarte.swift in Sources */,
 				935ECF692149BBDB006D691D /* Menu.swift in Sources */,
 				0AEA9A432146EF1600E39865 /* MonTabBarController.swift in Sources */,
+				930D7917214DB62D008332C6 /* PlatVue.swift in Sources */,
 				935ECF6B2149BCD3006D691D /* LesPlats.swift in Sources */,
 				934543202145813200DEFDDE /* AppDelegate.swift in Sources */,
 				935ECF652149B978006D691D /* Plat.swift in Sources */,
