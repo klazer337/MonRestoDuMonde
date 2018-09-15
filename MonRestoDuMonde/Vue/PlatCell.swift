@@ -11,9 +11,9 @@ import UIKit
 class PlatCell: UITableViewCell {
 
     @IBOutlet weak var imageDuPlat: UIImageView!
-    @IBOutlet weak var descDuPlat: UILabel!
+    @IBOutlet weak var descDuPlar: UILabel!
     
-    var plat: Plat
+    var plat: Plat!
     
     func miseEnPlace (plat: Plat){
         self.plat = plat
@@ -23,11 +23,11 @@ class PlatCell: UITableViewCell {
         imageDuPlat.clipsToBounds = true
         imageDuPlat.layer.cornerRadius = 20
         
-        descDuPlat.text = self.plat.desc
-        descDuPlat.textAlignment = .center
-        descDuPlat.numberOfLines = 0
-        descDuPlat.font = FONT_DE_BASE
-        descDuPlat.textColor = GRIS_TRES_CLAIR
+        descDuPlar.text = self.plat.desc
+        descDuPlar.textAlignment = .center
+        descDuPlar.numberOfLines = 0
+        descDuPlar.font = FONT_DE_BASE
+        descDuPlar.textColor = GRIS_TRES_CLAIR
         
     }
     
