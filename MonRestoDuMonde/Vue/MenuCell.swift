@@ -23,7 +23,7 @@ class MenuCell: UICollectionViewCell {
         vue.layer.borderWidth = 1
         
         imageDuMenu.image = self.menu.image
-        imageDuMenu.contentMode = .scaleAspectFit
+        imageDuMenu.contentMode = .scaleAspectFill
         imageDuMenu.clipsToBounds = true                // On garde la taille sans que ca déborde
         imageDuMenu.layer.cornerRadius = imageDuMenu.frame.width / 2
         imageDuMenu.layer.borderWidth = 2
